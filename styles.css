@@ -88,7 +88,6 @@ a{
 
 .hero {
     height: 599px;
-    width: 1440px;
     display: flex;
     justify-content: center;
     padding: 96px 144px;
@@ -188,6 +187,9 @@ a{
 
 .info {
     height: 288px;
+    padding: 0 144px;
+    gap: 130px;
+    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
     justify-items: center;
@@ -303,7 +305,7 @@ a{
     flex-direction: row-reverse;
     align-items: center;
     gap:49px;
-    align-self: stretch;
+    justify-content: center;
     padding: 0 144px;
     padding-top: 88px;
 }
